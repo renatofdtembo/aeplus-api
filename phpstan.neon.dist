@@ -1,0 +1,17 @@
+includes:
+  - vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+  paths:
+    - app
+  level: 5
+
+  # Configurações recomendadas para Laravel 10
+  checkMissingIterableValueType: false
+  checkGenericClassInNonGenericObjectType: false
+  checkOctaneCompatibility: false
+  checkModelProperties: true
+
+  ignoreErrors:
+    - '#Access to an undefined property#'
+    - '#Call to an undefined static method#'

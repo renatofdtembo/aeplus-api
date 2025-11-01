@@ -1,2 +1,2 @@
-# aeplus-api
-Aplicação base para php api da angola educa mais
+# AE+ API
+AE+ API.ao
